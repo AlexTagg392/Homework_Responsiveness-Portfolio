@@ -1,0 +1,28 @@
+
+    .nav-link {
+      color: lightgrey;
+    }
+
+    body {
+      background-color: lightgray;
+    }
+    .card {
+        width: 80%;
+    }
+    footer.navbar {
+        color: lightgray;  
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+    footer a {
+        color: lightgray;  
+    }
+    @media screen and (max-width: 576px){
+      footer.navbar {
+        position: static;
+        padding-bottom: 44px;
+      }
+    }
