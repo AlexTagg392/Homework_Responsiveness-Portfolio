@@ -6,8 +6,10 @@
     body {
       background-color: lightgray;
     }
+
     .card {
         width: 80%;
+        max-height: fit-content;
     }
     footer.navbar {
         color: lightgray;  
